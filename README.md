@@ -1,10 +1,10 @@
 # Introduction
 
-The current project provides a sample **XML validator configuration** for the fictional EU Purchase Order specification.
-The validator realises the demo scenario considered in the Test Bed's [XML validation guide](https://www.itb.ec.europa.eu/docs/guides/latest/validatingXML/index.html). You may check this out for the full description of this repository's resources and 
+The current project provides a sample **CSV validator configuration** for the fictional EU Purchase Order specification.
+The validator realises the demo scenario considered in the Test Bed's [CSV validation guide](https://www.itb.ec.europa.eu/docs/guides/latest/validatingCSV/index.html). You may check this out for the full description of this repository's resources and 
 validator configuration.
 
-The live validator defined through this configuration is available [here](https://www.itb.ec.europa.eu/order/upload). 
+The live validator defined through this configuration is available [here](https://www.itb.ec.europa.eu/csv/order/upload). 
 
 # Licence
 
