@@ -1,0 +1,104 @@
+{
+  "fields": [
+    {
+      "name": "shippingAddressName",
+      "type": "string",
+      "description": "The shipping address recipient name",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "shippingAddressStreet",
+      "type": "string",
+      "description": "The shipping address street",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "shippingAddressCity",
+      "type": "string",
+      "description": "The shipping address city",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "shippingAddressZip",
+      "type": "string",
+      "description": "The shipping address ZIP code",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "billingAddressName",
+      "type": "string",
+      "description": "The billing address recipient name",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "billingAddressStreet",
+      "type": "string",
+      "description": "The billing address street",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "billingAddressCity",
+      "type": "string",
+      "description": "The billing address city",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "billingAddressZip",
+      "type": "string",
+      "description": "The billing address ZIP code",
+      "constraints": {
+          "required": true
+      }
+    },
+    {
+      "name": "orderDate",
+      "type": "date",
+      "description": "The date the purchase order was created",
+      "format": "%Y-%m-%d",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "comment",
+      "type": "string",
+      "description": "An optional comment included in the purchase order",
+      "constraints": {
+          "maxLength": 500
+      }
+    },
+    {
+      "name": "totalItemQuantity",
+      "type": "integer",
+      "description": "The total quality of items included in the purchase order",
+      "constraints": {
+          "required": true,
+          "minimum": 10
+      }
+    },
+    {
+      "name": "totalItemCostEUR",
+      "type": "number",
+      "description": "The total cost (in EUR) of the purchase order's items",
+      "decimalChar": ".",
+      "constraints": {
+          "required": true,
+          "minimum": 0.0
+      }
+    }
+  ]
+}
